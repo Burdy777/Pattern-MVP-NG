@@ -1,0 +1,17 @@
+<div class="container_form">
+  <mat-form-field class="example-full-width">
+    <input matInput #heroName placeholder="Ajouter un héros">
+  </mat-form-field>
+  <button (click)="addHeroe(heroName.value)">Ajouter un héros</button>
+</div>
+
+<div class="container_list">
+  <ng-container *ngIf="heroes;else noHeroes">
+    <ol>
+      <li *ngFor="let h of heroes">{{ h.name }} <button (click)="removeHeroe(h)">supprimer</button></li>
+    </ol>
+  </ng-container>
+  <ng-template #noHeroes>
+    <h1>Il nous manque des Héros sur cette Terre ... ):</h1>
+  </ng-template>
+</div>

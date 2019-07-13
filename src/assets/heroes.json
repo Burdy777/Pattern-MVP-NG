@@ -1,0 +1,8 @@
+[
+    {"id":0, "name":"Spiderman", "powers":["toile", "intelligence"]},
+    {"id":1, "name":"Hulk", "powers":["force"]},
+    {"id":2, "name":"Iron man", "powers":["armure", "vole", "intelligence"]},
+    {"id":3, "name":"Mysterio", "powers":["illusion", "fou"]},
+    {"id":4, "name":"Captain America", "powers":["force", "intelligence", "rapide", "resistant"]},
+    {"id":5, "name":"Thor" ,"powers":["marteau surpuissant"]}
+]
